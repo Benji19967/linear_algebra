@@ -3,7 +3,7 @@ from enum import Enum
 
 import jax.numpy as jnp
 import numpy as np
-import scipy
+import scipy.linalg
 import torch
 
 N = 10000
@@ -69,6 +69,12 @@ def main():
     x2, residuals, rank, singular_values = np.linalg.lstsq(A, b)
     print(f"Took {time.time() - s} seconds for least squares")
     print(x2)
+
+    Q = scipy.linalg.orth([[1, 2], [9, 3]])
+    print(Q.T @ Q)
+
+    lu = scipy.linalg.lu([[1, 2], [9, 3]])
+    print(lu)
 
 
 if __name__ == "__main__":
