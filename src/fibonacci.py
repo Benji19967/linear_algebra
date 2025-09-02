@@ -9,7 +9,7 @@ def F_k(k: int = 50) -> int:
     """
     Linear algebra:
 
-    A = S@LAMBDA@S_inv
+    A = S @ LAMBDA @ S_inv
 
     u_k = A^k@u_0
     u_0 = [
@@ -37,7 +37,7 @@ def F_k(k: int = 50) -> int:
         F_kp1, F_k = np.linalg.matrix_power(A, k) @ np.array([[1], [0]])
         F_k_option_1 = F_k[0]
 
-    # Option 2
+    # Option 2 -- use diagonalization of A (A = S @ LAMBDA @ S_inv)
     F_k_option_2 = None
     with Timer():
         (lambda_1, lambda_2), S = np.linalg.eig(A)
