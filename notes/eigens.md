@@ -25,7 +25,7 @@
   - trivial solution: 
     - x = 0
   - non-trivial solution: 
-    - we're looking for N((A - $\lambda$ I)) (nullspace)
+    - we're looking for N(A - $\lambda$ I) (nullspace)
     - --> A - $\lambda$ I has to be singular
     - --> det(A - $\lambda$ I) = 0
     - --> compute eigenvalues
