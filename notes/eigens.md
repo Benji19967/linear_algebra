@@ -2,6 +2,7 @@
 
 ## Properties
 
+- eigenvalues and eigenvectors are only defined for __square__ matrices
 - tr(A) = sum of eigenvalues
 - det(A) = product of eigenvalues
 
@@ -20,12 +21,12 @@
 
 ## Computation
 - Ax = $\lambda$ x --> finds which vectors when transformed by A, point in the same direction but scaled by $\lambda$
-- Rewrite: (A-$\lambda$ I)x = 0
+- Rewrite: (A - $\lambda$ I)x = 0
   - trivial solution: 
     - x = 0
   - non-trivial solution: 
-    - we're looking for N((A-$\lambda$ I)) (nullspace)
-    - --> A-$\lambda$ I has to be singular
-    - --> det(A-$\lambda$ I) = 0
+    - we're looking for N((A - $\lambda$ I)) (nullspace)
+    - --> A - $\lambda$ I has to be singular
+    - --> det(A - $\lambda$ I) = 0
     - --> compute eigenvalues
-    - --> get associated eigenvectors from (A-$\lambda$ I)x = 0
+    - --> get associated eigenvectors from (A - $\lambda$ I)x = 0
