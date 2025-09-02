@@ -13,7 +13,7 @@
 
 ### Rotation matrix
 
-- eigenvalues are complex (clearly, no non-zero vector is parallel to its original after a nontrivial rotation in $\R^n$)
+- eigenvalues are complex (clearly, no non-zero vector is parallel to its original after a nontrivial rotation in $\mathbb{R}^n$)
 
 ### Triangular matrix
 
