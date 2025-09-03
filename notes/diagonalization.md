@@ -25,7 +25,7 @@
 
 ### Examples
 
-```
+```math
 A = \begin{bmatrix} 5 & 0 \\\ 0 & 2 \end{bmatrix}
 ```
 scales by 5 along the x-axis and by 2 along the y-axis
