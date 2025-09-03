@@ -30,11 +30,14 @@ A = \begin{bmatrix} 5 & 0 \\\ 0 & 2 \end{bmatrix}
 ```
 scales by 5 along the x-axis and by 2 along the y-axis
 
-- --> the eigenvectors are $\begin{bmatrix} 1 \\\ 0 \end{bmatrix}$ and $\begin{bmatrix} 0 \\\ 1 \end{bmatrix}$. __The eigenvalues are 5 and 2.__
+- --> the eigenvectors are [1, 0] and [0, 1]. __The eigenvalues are 5 and 2.__
 
-- $B = \begin{bmatrix} 7/2 & 3/2 \\\ 3/2 & 7/2 \end{bmatrix}$ scales by 5 along the (1,1)-axis and by 2 along the (-1, 1)-axis.
+```math
+B = \begin{bmatrix} 7/2 & 3/2 \\\ 3/2 & 7/2 \end{bmatrix}
+```
+scales by 5 along the (1,1)-axis and by 2 along the (-1, 1)-axis.
 
-- --> the eigenvectors are along the $\begin{bmatrix} 1 \\\ 1 \end{bmatrix}$ and the $\begin{bmatrix} -1 \\\ 1 \end{bmatrix}$ axis. __The eigenvalues are 5 and 2.__
+- --> the eigenvectors are along the [1, 1] and [-1, 1] axis. __The eigenvalues are 5 and 2.__
 
 --> The matrices A and B are __similar__. They perform the same linear map under 2 (possibly) different bases.
 
