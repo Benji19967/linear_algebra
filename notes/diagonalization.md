@@ -25,7 +25,8 @@
 
 ### Examples
 
-- $A = \begin{bmatrix} 5 & 0 \\\ 0 & 2 \end{bmatrix}$ scales by 5 along the x-axis and by 2 along the y-axis
+```$A = \begin{bmatrix} 5 & 0 \\\ 0 & 2 \end{bmatrix}$```
+scales by 5 along the x-axis and by 2 along the y-axis
 
 - --> the eigenvectors are $\begin{bmatrix} 1 \\\ 0 \end{bmatrix}$ and $\begin{bmatrix} 0 \\\ 1 \end{bmatrix}$. __The eigenvalues are 5 and 2.__
 
