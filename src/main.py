@@ -76,7 +76,13 @@ def main():
     lu = scipy.linalg.lu([[1, 2], [9, 3]])
     print(lu)
 
-    symmetric_matrix = np.array([[1, 2, 3], [2, 5, 6], [3, 6, 9]])
+    symmetric_matrix = np.array(
+        [
+            [1, 2, 3],
+            [2, 5, 6],
+            [3, 6, 9],
+        ]
+    )
     eigenvalues, Q = np.linalg.eig(symmetric_matrix)
     print("Eigenvalues:", eigenvalues)
     print("Eigenvectors:\n", Q)
